@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BC4215E16F7468200214C7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4215D16F7468200214C7E /* UIKit.framework */; };
+		9BC4216016F7468200214C7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4215F16F7468200214C7E /* Foundation.framework */; };
+		9BC4216216F7468200214C7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4216116F7468200214C7E /* CoreGraphics.framework */; };
+		9BC4216816F7468200214C7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4216616F7468200214C7E /* InfoPlist.strings */; };
+		9BC4216A16F7468200214C7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4216916F7468200214C7E /* main.m */; };
+		9BC4217016F7468200214C7E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4216F16F7468200214C7E /* Default.png */; };
+		9BC4217216F7468200214C7E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4217116F7468200214C7E /* Default@2x.png */; };
+		9BC4217416F7468200214C7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4217316F7468200214C7E /* Default-568h@2x.png */; };
+		9BC4218416F748DF00214C7E /* libCocos2dXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4218116F748C500214C7E /* libCocos2dXML.a */; };
+		9BC4218616F7490000214C7E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4218516F7490000214C7E /* AudioToolbox.framework */; };
+		9BC4218916F7490800214C7E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4218716F7490800214C7E /* OpenAL.framework */; };
+		9BC4218A16F7490800214C7E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4218816F7490800214C7E /* OpenGLES.framework */; };
+		9BC4218C16F7491300214C7E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4218B16F7491300214C7E /* AVFoundation.framework */; };
+		9BC4218E16F7491A00214C7E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4218D16F7491A00214C7E /* QuartzCore.framework */; };
+		9BC4219016F7492A00214C7E /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4218F16F7492A00214C7E /* libstdc++.dylib */; };
+		9BC4219216F7493500214C7E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4219116F7493500214C7E /* libxml2.dylib */; };
+		9BC4219416F7493A00214C7E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC4219316F7493A00214C7E /* libz.dylib */; };
+		9BC4219A16F74A6A00214C7E /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4219616F74A6A00214C7E /* hello.png */; };
+		9BC4219B16F74A6A00214C7E /* main.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4219816F74A6A00214C7E /* main.xml */; };
+		9BC4219C16F74A6A00214C7E /* testScene.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4219916F74A6A00214C7E /* testScene.xml */; };
+		9BC4219E16F74B0900214C7E /* hello@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4219D16F74B0900214C7E /* hello@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BC4218016F748C500214C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC4217A16F748C400214C7E /* Cocos2dXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9B41048016D1A46700EA730A;
+			remoteInfo = Cocos2dXML;
+		};
+		9BC4218216F748D300214C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC4217A16F748C400214C7E /* Cocos2dXML.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B41047F16D1A46700EA730A;
+			remoteInfo = Cocos2dXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BC4215A16F7468200214C7E /* Cocos2dXML_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocos2dXML_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC4215D16F7468200214C7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BC4215F16F7468200214C7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BC4216116F7468200214C7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BC4216516F7468200214C7E /* Cocos2dXML_Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocos2dXML_Example-Info.plist"; sourceTree = "<group>"; };
+		9BC4216716F7468200214C7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BC4216916F7468200214C7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BC4216B16F7468200214C7E /* Cocos2dXML_Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocos2dXML_Example-Prefix.pch"; sourceTree = "<group>"; };
+		9BC4216F16F7468200214C7E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9BC4217116F7468200214C7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9BC4217316F7468200214C7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9BC4217A16F748C400214C7E /* Cocos2dXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cocos2dXML.xcodeproj; path = Cocos2dXML/Cocos2dXML.xcodeproj; sourceTree = "<group>"; };
+		9BC4218516F7490000214C7E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9BC4218716F7490800214C7E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		9BC4218816F7490800214C7E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9BC4218B16F7491300214C7E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9BC4218D16F7491A00214C7E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9BC4218F16F7492A00214C7E /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		9BC4219116F7493500214C7E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		9BC4219316F7493A00214C7E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9BC4219616F74A6A00214C7E /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
+		9BC4219816F74A6A00214C7E /* main.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = main.xml; sourceTree = "<group>"; };
+		9BC4219916F74A6A00214C7E /* testScene.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testScene.xml; sourceTree = "<group>"; };
+		9BC4219D16F74B0900214C7E /* hello@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hello@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BC4215716F7468200214C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC4218416F748DF00214C7E /* libCocos2dXML.a in Frameworks */,
+				9BC4219416F7493A00214C7E /* libz.dylib in Frameworks */,
+				9BC4219216F7493500214C7E /* libxml2.dylib in Frameworks */,
+				9BC4219016F7492A00214C7E /* libstdc++.dylib in Frameworks */,
+				9BC4218E16F7491A00214C7E /* QuartzCore.framework in Frameworks */,
+				9BC4218C16F7491300214C7E /* AVFoundation.framework in Frameworks */,
+				9BC4218916F7490800214C7E /* OpenAL.framework in Frameworks */,
+				9BC4218A16F7490800214C7E /* OpenGLES.framework in Frameworks */,
+				9BC4218616F7490000214C7E /* AudioToolbox.framework in Frameworks */,
+				9BC4215E16F7468200214C7E /* UIKit.framework in Frameworks */,
+				9BC4216016F7468200214C7E /* Foundation.framework in Frameworks */,
+				9BC4216216F7468200214C7E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BC4215116F7468200214C7E = {
+			isa = PBXGroup;
+			children = (
+				9BC4219316F7493A00214C7E /* libz.dylib */,
+				9BC4219116F7493500214C7E /* libxml2.dylib */,
+				9BC4218F16F7492A00214C7E /* libstdc++.dylib */,
+				9BC4218D16F7491A00214C7E /* QuartzCore.framework */,
+				9BC4218B16F7491300214C7E /* AVFoundation.framework */,
+				9BC4218716F7490800214C7E /* OpenAL.framework */,
+				9BC4218816F7490800214C7E /* OpenGLES.framework */,
+				9BC4218516F7490000214C7E /* AudioToolbox.framework */,
+				9BC4217A16F748C400214C7E /* Cocos2dXML.xcodeproj */,
+				9BC4216316F7468200214C7E /* Cocos2dXML_Example */,
+				9BC4215C16F7468200214C7E /* Frameworks */,
+				9BC4215B16F7468200214C7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BC4215B16F7468200214C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4215A16F7468200214C7E /* Cocos2dXML_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BC4215C16F7468200214C7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4215D16F7468200214C7E /* UIKit.framework */,
+				9BC4215F16F7468200214C7E /* Foundation.framework */,
+				9BC4216116F7468200214C7E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BC4216316F7468200214C7E /* Cocos2dXML_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4219516F74A6A00214C7E /* assets */,
+				9BC4216416F7468200214C7E /* Supporting Files */,
+			);
+			path = Cocos2dXML_Example;
+			sourceTree = "<group>";
+		};
+		9BC4216416F7468200214C7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4216516F7468200214C7E /* Cocos2dXML_Example-Info.plist */,
+				9BC4216616F7468200214C7E /* InfoPlist.strings */,
+				9BC4216916F7468200214C7E /* main.m */,
+				9BC4216B16F7468200214C7E /* Cocos2dXML_Example-Prefix.pch */,
+				9BC4216F16F7468200214C7E /* Default.png */,
+				9BC4217116F7468200214C7E /* Default@2x.png */,
+				9BC4217316F7468200214C7E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BC4217B16F748C400214C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4218116F748C500214C7E /* libCocos2dXML.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BC4219516F74A6A00214C7E /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4219616F74A6A00214C7E /* hello.png */,
+				9BC4219D16F74B0900214C7E /* hello@2x.png */,
+				9BC4219716F74A6A00214C7E /* ScriptsAndXML */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		9BC4219716F74A6A00214C7E /* ScriptsAndXML */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4219816F74A6A00214C7E /* main.xml */,
+				9BC4219916F74A6A00214C7E /* testScene.xml */,
+			);
+			path = ScriptsAndXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BC4215916F7468200214C7E /* Cocos2dXML_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC4217716F7468200214C7E /* Build configuration list for PBXNativeTarget "Cocos2dXML_Example" */;
+			buildPhases = (
+				9BC4215616F7468200214C7E /* Sources */,
+				9BC4215716F7468200214C7E /* Frameworks */,
+				9BC4215816F7468200214C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BC4218316F748D300214C7E /* PBXTargetDependency */,
+			);
+			name = Cocos2dXML_Example;
+			productName = Cocos2dXML_Example;
+			productReference = 9BC4215A16F7468200214C7E /* Cocos2dXML_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BC4215216F7468200214C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Robox Studios";
+			};
+			buildConfigurationList = 9BC4215516F7468200214C7E /* Build configuration list for PBXProject "Cocos2dXML_Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BC4215116F7468200214C7E;
+			productRefGroup = 9BC4215B16F7468200214C7E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9BC4217B16F748C400214C7E /* Products */;
+					ProjectRef = 9BC4217A16F748C400214C7E /* Cocos2dXML.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9BC4215916F7468200214C7E /* Cocos2dXML_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9BC4218116F748C500214C7E /* libCocos2dXML.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocos2dXML.a;
+			remoteRef = 9BC4218016F748C500214C7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BC4215816F7468200214C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC4216816F7468200214C7E /* InfoPlist.strings in Resources */,
+				9BC4217016F7468200214C7E /* Default.png in Resources */,
+				9BC4217216F7468200214C7E /* Default@2x.png in Resources */,
+				9BC4217416F7468200214C7E /* Default-568h@2x.png in Resources */,
+				9BC4219A16F74A6A00214C7E /* hello.png in Resources */,
+				9BC4219B16F74A6A00214C7E /* main.xml in Resources */,
+				9BC4219C16F74A6A00214C7E /* testScene.xml in Resources */,
+				9BC4219E16F74B0900214C7E /* hello@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BC4215616F7468200214C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC4216A16F7468200214C7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BC4218316F748D300214C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cocos2dXML;
+			targetProxy = 9BC4218216F748D300214C7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BC4216616F7468200214C7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BC4216716F7468200214C7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BC4217516F7468200214C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Cocos2dXML/include\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BC4217616F7468200214C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Cocos2dXML/include\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BC4217816F7468200214C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocos2dXML_Example/Cocos2dXML_Example-Prefix.pch";
+				INFOPLIST_FILE = "Cocos2dXML_Example/Cocos2dXML_Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BC4217916F7468200214C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocos2dXML_Example/Cocos2dXML_Example-Prefix.pch";
+				INFOPLIST_FILE = "Cocos2dXML_Example/Cocos2dXML_Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BC4215516F7468200214C7E /* Build configuration list for PBXProject "Cocos2dXML_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC4217516F7468200214C7E /* Debug */,
+				9BC4217616F7468200214C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC4217716F7468200214C7E /* Build configuration list for PBXNativeTarget "Cocos2dXML_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC4217816F7468200214C7E /* Debug */,
+				9BC4217916F7468200214C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BC4215216F7468200214C7E /* Project object */;
+}

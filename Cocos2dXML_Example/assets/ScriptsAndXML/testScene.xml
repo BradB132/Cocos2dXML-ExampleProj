@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Scene onLoad="doSetup" onUpdate="doUpdate">
+
+	<Sprite texture="hello.png" position="100,100"/>
+	
+</Scene>
