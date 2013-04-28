@@ -1,0 +1,42 @@
+
+Object drawNode = scene.drawNode;
+
+float screenWidth = director.sizeX;
+float screenHeight = director.sizeY;
+
+/* //commented out the random stuff because it's kind of ugly
+//draw some random dots
+for(int i = 0; i < 20; i++)
+{
+	drawNode.drawDot((float)random(0, screenWidth), (float)random(0, screenHeight));
+}
+
+//draw some random lines
+for(int i = 0; i < 10; i++)
+{
+	drawNode.drawSegment((float)random(0, screenWidth), (float)random(0, screenHeight), (float)random(0, screenWidth), (float)random(0, screenHeight));
+}
+*/
+
+//draw a square
+float squareX = 50;
+float squareY = 200;
+float squareSize = 100;
+drawNode.drawPolygon(squareX, squareY,
+				squareX+squareSize, squareY,
+				squareX+squareSize, squareY+squareSize,
+				squareX, squareY+squareSize);
+
+//draw a circle
+float circleX = 250;
+float circleY = 350;
+float circleRadius = 50;
+float circleDivisions = 20;
+float radiansPerDivision = (2*PI)/circleDivisions;
+for(int i = 0; i < circleDivisions; i++)
+{
+	float angle = i*radiansPerDivision;
+	drawNode.addPointToPolygon(circleX+circleRadius*cos(angle),
+							circleY+circleRadius*sin(angle));
+}
+drawNode.finishPolygon();

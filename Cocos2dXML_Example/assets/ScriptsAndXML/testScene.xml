@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Scene onLoad="doSetup" onUpdate="doUpdate">
-
+	
+	<!-- testing some drawing -->
+	<Script runListener="doSetup" path="drawPolygon.noplb"/>
+	<DrawNode id="drawNode" lineWidth="2" lineColor="#FF0000FF" fillColor="#0000FFFF" />
+	
+	<!-- testing putting an image on screen -->
 	<Sprite texture="hello.png" position="100,100"/>
 	
 </Scene>
